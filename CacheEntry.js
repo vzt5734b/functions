@@ -1,4 +1,2 @@
-const executableName = getExecutableName(channel, appName);
-const fullName = name || 'buddy';
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-console.log(+"1" +  "1" + "2");
+console.log(typeof typeof 1);
+[foo, bar] = [bar, foo];
