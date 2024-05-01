@@ -1,4 +1,3 @@
-const value = ( 5 < 7 ) ? "True" : "False" ;
 var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+console.log("1 || 2 = "+(1 || 2));
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
