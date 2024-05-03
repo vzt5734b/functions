@@ -1,3 +1,2 @@
-console.log("0 && 1 = "+(0 && 1));
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
 console.log( "A" - "B" + 2);
-const intermediateAppPath = path.join(buildOutputPath, 'app');
