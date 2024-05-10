@@ -1,1 +1,2 @@
-const timeFromDate = date => date.toTimeString().slice(0, 8);
+const stringReverse = str => str.split("").reverse().join("");
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
