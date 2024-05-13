@@ -1,1 +1,1 @@
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const flattenedArray = arr => [].concat(...arr);
