@@ -1,2 +1,2 @@
-console.log(false === '0');
-const uniqueArr = (arr) => [...new Set(arr)];
+const results = await Promise.all(resultingPromises);
+const isEmptyObject = obj => Object.keys(obj).length === 0;
