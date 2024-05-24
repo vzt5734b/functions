@@ -1,1 +1,1 @@
-var arr3 = "jones".split('');
+const symbolsPath = path.join(buildOutputPath, 'symbols');
