@@ -1,2 +1,2 @@
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const isArray = (arr) => Array.isArray(arr);
+const uniqueArr = (arr) => [...new Set(arr)];
