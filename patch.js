@@ -1,3 +1,3 @@
-console.log(1 +  "2" + "2");
-console.log("0 || 1 = "+(0 || 1));
-console.log(+"1" +  "1" + "2");
+const merge = [...new Set([...a, ...b])];
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const fullName = name || 'buddy';
