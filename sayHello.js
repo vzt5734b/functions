@@ -1,1 +1,2 @@
-var arr2 = arr1.reverse();
+const randomBoolean = () => Math.random() >= 0.5;
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
