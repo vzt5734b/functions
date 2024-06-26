@@ -1,3 +1,2 @@
-const merge = [...new Set([...a, ...b])];
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-const fullName = name || 'buddy';
+const minNumber = arr => Math.min(...arr);
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
