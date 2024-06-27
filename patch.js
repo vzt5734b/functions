@@ -1,2 +1,3 @@
-const minNumber = arr => Math.min(...arr);
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const merge = (a, b) => [...a, ...b];
