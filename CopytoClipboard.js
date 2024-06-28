@@ -1,2 +1,3 @@
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-const resultingPromises = urls.map((url) => makHttpRequest(url));
+const allResults = await Promise.all(items.map(async (item) => {}));
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
