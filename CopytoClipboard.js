@@ -1,3 +1,3 @@
-const allResults = await Promise.all(items.map(async (item) => {}));
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+function myAPITS(someString: string, someNum: number) { ... };
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const timeFromDate = date => date.toTimeString().slice(0, 8);
