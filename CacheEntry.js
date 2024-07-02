@@ -1,2 +1,3 @@
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const isTabInView = () => !document.hidden;
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+console.log(typeof typeof 1);
+console.log( "A" - "B" + 2);
