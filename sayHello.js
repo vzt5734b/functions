@@ -1,3 +1,1 @@
-const results = await Promise.all(resultingPromises);
-console.log("1 && 2 = "+(1 && 2));
-const channel = getChannel(computedAppVersion);
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
