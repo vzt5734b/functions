@@ -1,1 +1,1 @@
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const merge = Object.assign({}, obj1, obj2);
