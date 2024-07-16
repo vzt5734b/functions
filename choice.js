@@ -1,3 +1,3 @@
-const repositoryRootPath = path.resolve(__dirname, '..');
-console.log("0 || 1 = "+(0 || 1));
-console.log(1 +  "2" + "2");
+const reversedString = str => str.split('').reverse().join('');
+const currentDate = () => new Date().toLocaleDateString('en-US');
+console.log(+"1" +  "1" + "2");
