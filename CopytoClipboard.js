@@ -1,2 +1,3 @@
-const merge = Object.assign({}, obj1, obj2);
-const channel = getChannel(computedAppVersion);
+const removeDuplicates = (arr) => [...new Set(arr)];
+function myAPITS(someString: string, someNum: number) { ... };
+const symbolsPath = path.join(buildOutputPath, 'symbols');
