@@ -1,2 +1,2 @@
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const uniqueArray = arr => [...new Set(arr)];
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
