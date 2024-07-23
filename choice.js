@@ -1,3 +1,1 @@
-const updated = numbers.filter(element => element > 6);
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const allResults = await Promise.all(items.map(async (item) => {}));
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
