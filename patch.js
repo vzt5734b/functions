@@ -1,2 +1,3 @@
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const toggleBool = () => (bool = !bool);
+const channelName = getChannelName(channel);
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const apmRootPath = path.join(repositoryRootPath, 'apm');
