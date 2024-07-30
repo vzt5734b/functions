@@ -1,1 +1,3 @@
-const apmRootPath = path.join(repositoryRootPath, 'apm');
+console.log("0 && 1 = "+(0 && 1));
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const maxNumber = arr => Math.max(...arr);
