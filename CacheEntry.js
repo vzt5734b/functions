@@ -1,1 +1,2 @@
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const merge = [...new Set([...a, ...b])];
+var c = new Counter(); c.add(); c.add(); c.add();
