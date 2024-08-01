@@ -1,2 +1,2 @@
-const merge = [...new Set([...a, ...b])];
-var c = new Counter(); c.add(); c.add(); c.add();
+console.log(false == '0');
+const isEven = (num) => num % 2 === 0;
