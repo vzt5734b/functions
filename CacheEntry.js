@@ -1,2 +1,1 @@
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const merge = (a, b) => a.concat(b);
+const minNumber = arr => Math.min(...arr);
