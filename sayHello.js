@@ -1,2 +1,2 @@
-console.log( "A" - "B" + "2");
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
